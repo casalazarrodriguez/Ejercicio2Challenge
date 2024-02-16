@@ -22,7 +22,7 @@
    - Para obtener el reporte del proyecto ejecutado, desglosa la carpeta target/karate-reports ingresa al src.test.resources.post.html. 
    - Al lado superior derecho selecciona el navegador Chrome para abrir el reporte.
 
-Referencia: https://github.com/casalazarrodriguez/Ejercicio2.git
+Referencia: https://github.com/casalazarrodriguez/Ejercicio2Challenge.git
 
 ## NOTA
 - En esta ocación solo se logró jalar y guardar en Json para el primer escenario añadir mascota, para los siguientes escenarios se tuvo inconveniente.
@@ -39,4 +39,4 @@ Referencia: https://github.com/casalazarrodriguez/Ejercicio2.git
   - Para obtener el reporte dashboard del proyecto ejecutado, seleccionar pestaña Mave y hacer clic en Execute Maven Goal.
   - Dijitar mvn serenity:aggregate, esperar a que termine de cargar y seleccionar la ruta mostrada en consola.
 
-Referencia: https://github.com/casalazarrodriguez/Ejercicio2.git
+Referencia: https://github.com/casalazarrodriguez/Ejercicio2Challenge.git
