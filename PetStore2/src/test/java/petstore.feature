@@ -1,8 +1,10 @@
 @AdminPets
 Feature:
   Background: añadir, consultar, editar y consultar
+
     * def body = read ('AddPet.json')
     * def validPet = read ('ValidPet.json')
+
 
   @AddPet
   Scenario Outline: Añadir una mascota a la tienda
@@ -20,12 +22,13 @@ Feature:
     * match response == validPet
     * def idPet = response.id
     Examples:
-    | statusCode  |
-    | 200         |
+      | statusCode  |
+      | 200         |
 
   @ConsulID
   Scenario: consultar la mascota ingresada previamente
-    Given url 'https://petstore.swagger.io/v2/pet/' + idPet
+    #* print 'resultado: ' + idPet
+    Given url 'https://petstore.swagger.io/v2/pet' + '/idPet'
     When method get
     Then  status 200
     * print response
